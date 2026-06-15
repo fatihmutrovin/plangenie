@@ -80,6 +80,21 @@ app.get("/test-db", async (req,res)=>{
     }
 
 });
+
+
+const fs = require("fs");
+
+app.get("/debug-dialogflow", (req,res)=>{
+
+    res.json({
+
+        fileExists: fs.existsSync(
+            "./invesion-qclp-966c7fbb29ae.json"
+        )
+
+    });
+
+});
 // ================= GET TOPICS =================
 
 app.get("/topics", (req,res)=>{
