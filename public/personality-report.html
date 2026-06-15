@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Personality Report
+</title>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+<link
+rel="stylesheet"
+href="css/style.css">
+
+<style>
+
+.report-page{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    padding:30px;
+
+    background:#f7f9fc;
+
+}
+
+.report-header{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:25px;
+
+}
+
+.report-header i{
+
+    font-size:22px;
+    color:#2f80ed;
+    cursor:pointer;
+
+}
+
+.report-header h2{
+
+    margin:0;
+    color:#243b6b;
+
+}
+
+.report-header p{
+
+    margin:0;
+    color:#8b95a7;
+    font-size:14px;
+
+}
+
+.summary-grid{
+
+    display:grid;
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:15px;
+
+    margin-bottom:20px;
+
+}
+
+.summary-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.05);
+
+}
+
+.summary-card h4{
+
+    margin:0 0 10px 0;
+
+    font-size:13px;
+
+    color:#7f8ea3;
+
+}
+
+.summary-card h2{
+
+    margin:0;
+
+    color:#243b6b;
+
+}
+
+.summary-card p{
+
+    margin-top:8px;
+
+    font-size:13px;
+
+    color:#9aa6b2;
+
+}
+
+.personality-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.05);
+
+}
+
+.personality-top{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.personality-emoji{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    background:#fff3d6;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:35px;
+
+}
+
+.personality-name{
+
+    font-size:22px;
+
+    font-weight:600;
+
+    color:#243b6b;
+
+}
+
+.personality-desc{
+
+    margin-top:10px;
+
+    color:#6c7a92;
+
+    line-height:1.6;
+
+}
+
+.insight-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    2fr 1fr;
+
+    gap:20px;
+
+    margin-bottom:20px;
+
+}
+
+.insight-card,
+.risk-card,
+.recommendation-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:
+    0 4px 15px rgba(0,0,0,.05);
+
+}
+
+.card-title{
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+    color:#243b6b;
+
+}
+
+.insight-item{
+
+    margin-bottom:12px;
+
+    color:#56657a;
+
+}
+
+.insight-item i{
+
+    color:#23c16b;
+
+    margin-right:8px;
+
+}
+
+.risk-score{
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+.risk-profile{
+
+    font-size:26px;
+
+    font-weight:700;
+
+    color:#243b6b;
+
+}
+
+.recommendation-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:10px;
+
+    margin-bottom:15px;
+
+}
+
+.recommendation-item i{
+
+    color:#2f80ed;
+
+    margin-top:3px;
+
+}
+html,
+body{
+
+    height:100%;
+    overflow:hidden;
+
+}
+
+.main{
+
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+
+}
+
+
+.summary-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+    margin-bottom:20px;
+
+}
+
+.summary-card{
+
+    background:white;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,.05);
+
+}
+
+.summary-card h4{
+
+    font-size:13px;
+    color:#8a96a8;
+    margin-bottom:10px;
+
+}
+
+.summary-card h2{
+
+    font-size:24px;
+    color:#1f3d7a;
+    margin:0;
+
+}
+
+.personality-card,
+.insight-card,
+.risk-card,
+.recommendation-card{
+
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,.05);
+
+}
+
+.personality-card{
+
+    margin-bottom:20px;
+
+}
+
+.insight-grid{
+
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:20px;
+    margin-bottom:20px;
+
+}
+
+.card-title{
+
+    font-size:18px;
+    font-weight:600;
+    color:#1f3d7a;
+    margin-bottom:15px;
+
+}
+
+.insight-item{
+
+    margin-bottom:12px;
+    color:#52627a;
+
+}
+
+.insight-item i{
+
+    color:#21c36f;
+    margin-right:8px;
+
+}
+
+.risk-badge{
+
+    margin-top:20px;
+    font-size:26px;
+    font-weight:700;
+    color:#1f3d7a;
+
+}
+
+.risk-desc{
+
+    margin-top:10px;
+    color:#6c7a92;
+
+}
+
+.rec-box{
+
+    background:#f8fbff;
+    border-left:4px solid #2f80ed;
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:12px;
+
+}
+
+.rec-title{
+
+    font-weight:600;
+    color:#1f3d7a;
+    margin-bottom:5px;
+
+}
+
+.rec-text{
+
+    color:#66758f;
+    font-size:14px;
+
+}
+@media (max-width:768px){
+
+    .summary-grid{
+        grid-template-columns:1fr;
+    }
+
+    .insight-grid{
+        grid-template-columns:1fr;
+    }
+
+    .report-page{
+        padding:20px;
+    }
+
+    .personality-top{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .personality-name{
+        font-size:20px;
+    }
+
+    .summary-card h2{
+        font-size:20px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar" id="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            <h1>
+                Plan<span>genie</span>
+            </h1>
+
+            <i class="fa-solid fa-star logo-star"></i>
+
+            <p>
+                AI Financial Assistant
+            </p>
+
+        </div>
+
+        <!-- CHAT BUTTON -->
+
+        <button
+        class="chat-btn"
+        onclick="window.location.href='chatbot.html'">
+
+            <i class="fa-regular fa-comment-dots"></i>
+
+            <span>
+                Chat with Genie
+            </span>
+
+        </button>
+
+        <!-- MENU -->
+
+        <div class="menu">
+
+            <a href="dashboard.html" class="menu-link">
+
+                <div class="menu-item">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <span>
+                        Dashboard
+                    </span>
+
+                </div>
+
+            </a>
+
+            <a href="personality-report.html" class="menu-link">
+
+                <div class="menu-item active">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <span>
+                        Personality Report
+                    </span>
+
+                </div>
+
+            </a>
+
+            <a href="simulation.html" class="menu-link">
+
+                <div class="menu-item">
+
+                    <i class="fa-solid fa-chart-column"></i>
+
+                    <span>
+                        Simulation
+                    </span>
+
+                </div>
+
+            </a>
+
+        </div>
+
+        <!-- CARD GENIE -->
+
+        <div class="bottom-sidebar">
+
+            <div class="profile-card">
+
+                <div class="profile-img">
+
+                    <img src="bot.jpeg">
+
+                </div>
+
+                <h2>
+                    Genie
+                </h2>
+
+                <h4>
+                    AI Financial Assistant
+                </h4>
+
+                <p>
+                    Smart, Friendly,<br>
+                    Reliable — Always<br>
+                    Ready To Help 💙
+                </p>
+
+            </div>
+
+            <div class="logout-section">
+
+                <div
+                class="menu-item logout-item"
+                onclick="showLogoutModal()">
+
+                    <i class="fa-solid fa-right-from-bracket"></i>
+
+                    <span>
+                        Logout
+                    </span>
+
+                </div>
+
+            </div>
+
+    </div>
+
+</div>
+<div id="sidebarOverlay" class="sidebar-overlay"></div>
+    <!-- MAIN -->
+
+    <div class="main">
+
+        <div class="topbar">
+            <button class="menu-toggle" onclick="toggleSidebar()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            
+            <div style="display:flex;align-items:center;gap:18px;">
+                <i class="fa-regular fa-circle-question"></i>
+                <i class="fa-solid fa-headset"></i>
+            </div>
+        </div>
+
+        <div class="report-page">
+
+            <div class="report-header">
+
+                <i
+                class="fa-solid fa-arrow-left"
+                onclick="window.location.href='chatbot.html'"></i>
+
+                <div>
+
+                    <h2>
+                        Personality Report
+                    </h2>
+
+                    <p>
+                        Hasil Analisis Finansial Kamu
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div id="reportContainer">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/personality-report.js"></script>
+
+<div
+id="logoutModal"
+class="logout-modal">
+
+    <div class="logout-content">
+
+        <h3>
+            Keluar dari akun?
+        </h3>
+
+        <p>
+            Kamu yakin ingin keluar dari Plangenie?
+        </p>
+
+        <div class="logout-buttons">
+
+            <button
+            class="cancel-btn"
+            onclick="closeLogoutModal()">
+
+                Batal
+
+            </button>
+
+            <button
+            class="confirm-btn"
+            onclick="logout()">
+
+                Ya, Keluar
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<script>
+
+function toggleSidebar(){
+
+    const sidebar =
+    document.getElementById("sidebar");
+
+    const overlay =
+    document.getElementById("sidebarOverlay");
+
+    sidebar.classList.toggle("active");
+    overlay.classList.toggle("active");
+
+}
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+    const overlay =
+    document.getElementById("sidebarOverlay");
+
+    overlay.addEventListener("click",()=>{
+
+        document
+            .getElementById("sidebar")
+            .classList
+            .remove("active");
+
+        overlay
+            .classList
+            .remove("active");
+
+    });
+
+});
+
+</script>
+<script src="js/sidebar.js"></script>
+</body>
+
+</html>

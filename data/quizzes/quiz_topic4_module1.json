@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Mengapa dana pensiun membutuhkan investasi?",
+      "options": [
+        "Agar tidak perlu menabung",
+        "Untuk membantu dana tumbuh lebih cepat dan melawan inflasi",
+        "Karena investasi tidak memiliki risiko",
+        "Untuk mempercepat usia pensiun"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Apa yang dimaksud dengan profil risiko investasi?",
+      "options": [
+        "Jumlah penghasilan seseorang",
+        "Tingkat kenyamanan seseorang terhadap risiko investasi",
+        "Jumlah tabungan yang dimiliki",
+        "Jenis pekerjaan seseorang"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Manakah instrumen yang umumnya memiliki potensi hasil tertinggi sekaligus risiko tertinggi?",
+      "options": [
+        "Tabungan",
+        "Obligasi",
+        "Emas",
+        "Saham"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Mengapa diversifikasi investasi penting?",
+      "options": [
+        "Menghilangkan semua risiko",
+        "Menyebarkan risiko ke beberapa instrumen investasi",
+        "Menjamin keuntungan besar",
+        "Mengurangi kebutuhan menabung"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Bagaimana strategi investasi sebaiknya berubah saat mendekati masa pensiun?",
+      "options": [
+        "Semakin agresif",
+        "Fokus pada instrumen berisiko tinggi",
+        "Lebih menekankan stabilitas dan perlindungan dana",
+        "Menempatkan seluruh dana pada saham"
+      ],
+      "answer": 2
+    }
+  ]
+}

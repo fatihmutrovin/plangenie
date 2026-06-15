@@ -1,0 +1,41 @@
+{
+  "id": 3,
+
+  "title": "Kebiasaan Finansial",
+
+  "subtitle": "Behavior",
+
+  "materials": [
+
+    {
+
+      "id": 1,
+
+      "title":
+      "Cara membangun kebiasaan menabung dana pensiun secara konsisten",
+
+      "description":
+      "Membangun kebiasaan finansial yang sehat dan konsisten.",
+
+      "file": "materials/material8.pdf",
+
+      "recommendationFile":
+      "rec_topic3_module1.json",
+
+      "content": [
+
+        "Pentingnya disiplin finansial",
+
+        "Menyisihkan penghasilan secara rutin",
+
+        "Membangun kebiasaan menabung"
+
+      ],
+
+      "quizFile":
+      "quiz_topic3_module1.json"
+
+    }
+
+  ]
+}

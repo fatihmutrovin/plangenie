@@ -1,0 +1,131 @@
+{
+  "id": 2,
+
+  "title": "Strategi Dana Pensiun",
+
+  "subtitle": "Planning",
+
+  "materials": [
+
+    {
+
+      "id": 1,
+
+      "title":
+      "Cara menyiapkan dana pensiun sejak dini",
+
+      "description":
+      "Belajar strategi mempersiapkan dana pensiun sejak usia muda.",
+
+      "file": "materials/material4.pdf",
+
+      "recommendationFile":
+      "rec_topic2_module1.json",
+
+      "content": [
+
+        "Pentingnya memulai lebih awal",
+
+        "Manfaat konsistensi menabung",
+
+        "Pertumbuhan dana jangka panjang"
+
+      ],
+
+      "quizFile":
+      "quiz_topic2_module1.json"
+
+    },
+
+    {
+
+      "id": 2,
+
+      "title":
+      "Cara membuat prioritas antara dana darurat dan dana pensiun",
+
+      "description":
+      "Belajar menentukan prioritas finansial secara seimbang.",
+
+      "file": "materials/material5.pdf",
+
+      "recommendationFile":
+      "rec_topic2_module2.json",
+
+      "content": [
+
+        "Fungsi dana darurat",
+
+        "Perbedaan dana darurat dan dana pensiun",
+
+        "Strategi membagi penghasilan"
+
+      ],
+
+      "quizFile":
+      "quiz_topic2_module2.json"
+
+    },
+
+    {
+
+      "id": 3,
+
+      "title":
+      "Sumber-sumber dana pensiun",
+
+      "description":
+      "Mengenal berbagai sumber dana untuk masa pensiun.",
+
+      "file": "materials/material6.pdf",
+
+      "recommendationFile":
+      "rec_topic2_module3.json",
+
+      "content": [
+
+        "Tabungan pribadi",
+
+        "Investasi jangka panjang",
+
+        "Program pensiun"
+
+      ],
+
+      "quizFile":
+      "quiz_topic2_module3.json"
+
+    },
+
+    {
+
+      "id": 4,
+
+      "title":
+      "Cara menjaga dana pensiun",
+
+      "description":
+      "Belajar menjaga kestabilan dana pensiun dalam jangka panjang.",
+
+      "file": "materials/material7.pdf",
+
+      "recommendationFile":
+      "rec_topic2_module4.json",
+
+      "content": [
+
+        "Mengontrol pengeluaran",
+
+        "Menghindari penggunaan impulsif",
+
+        "Evaluasi keuangan berkala"
+
+      ],
+
+      "quizFile":
+      "quiz_topic2_module4.json"
+
+    }
+
+  ]
+}

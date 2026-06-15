@@ -1,0 +1,575 @@
+[
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Compulsive Saver"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Compulsive Saver"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Compulsive Saver"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "The Worrier"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "The Worrier"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "The Worrier"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Compulsive Saver"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Compulsive Saver"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "The Worrier"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Hemat",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Normal",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Rutin",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Saver Splurger"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "Kadang",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Balanced Financial User"
+    },
+
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Belum",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Pernah",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Kebutuhan_pokok",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Gaya_hidup",
+        "personality": "Compulsive Spender"
+    },
+    {
+        "lifestyle": "Konsumtif",
+        "savingHabit": "tidak_pernah",
+        "investmentExperience": "Rutin",
+        "expenseFocus": "Cicilan_utang",
+        "personality": "Compulsive Spender"
+    }
+]

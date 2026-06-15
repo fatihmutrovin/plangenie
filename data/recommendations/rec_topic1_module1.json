@@ -1,0 +1,35 @@
+{
+  "questions": [
+
+    {
+
+      "question":
+      "Apa itu perencanaan masa tua?",
+
+      "answer":
+      "Perencanaan masa tua adalah proses mempersiapkan kondisi keuangan agar kebutuhan hidup tetap terpenuhi saat seseorang sudah tidak bekerja atau memasuki usia pensiun."
+
+    },
+
+    {
+
+      "question":
+      "Kenapa harus mulai sejak muda?",
+
+      "answer":
+      "Karena semakin awal memulai, semakin banyak waktu untuk mengumpulkan dan mengembangkan dana pensiun sehingga persiapannya menjadi lebih ringan."
+
+    },
+
+    {
+
+      "question":
+      "Apa risiko jika tidak punya dana pensiun?",
+
+      "answer":
+      "Risikonya adalah kesulitan finansial di masa tua, bergantung pada keluarga, dan kesulitan memenuhi kebutuhan kesehatan maupun biaya hidup."
+
+    }
+
+  ]
+}

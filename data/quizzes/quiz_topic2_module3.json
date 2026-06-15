@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Apa tujuan memiliki beberapa sumber dana pensiun?",
+      "options": [
+        "Agar tidak perlu menabung",
+        "Mengurangi risiko bergantung pada satu sumber pendapatan",
+        "Meningkatkan pengeluaran",
+        "Menghindari investasi"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Apa fungsi utama tabungan dalam perencanaan pensiun?",
+      "options": [
+        "Menjadi fondasi awal dana pensiun",
+        "Menggantikan seluruh investasi",
+        "Menghilangkan risiko inflasi",
+        "Menjamin keuntungan tinggi"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Mengapa investasi penting untuk dana pensiun?",
+      "options": [
+        "Membantu dana berkembang lebih cepat",
+        "Mengurangi pendapatan",
+        "Menghilangkan kebutuhan menabung",
+        "Menggantikan dana darurat"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Manakah yang termasuk aset produktif?",
+      "options": [
+        "Rumah kontrakan",
+        "Telepon genggam",
+        "Pakaian",
+        "Kendaraan pribadi untuk penggunaan sehari-hari"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Apa manfaat utama diversifikasi sumber dana pensiun?",
+      "options": [
+        "Memastikan keuntungan pasti",
+        "Menghilangkan semua risiko",
+        "Mengurangi dampak jika salah satu sumber dana mengalami masalah",
+        "Mengurangi kebutuhan perencanaan"
+      ],
+      "answer": 2
+    }
+  ]
+}

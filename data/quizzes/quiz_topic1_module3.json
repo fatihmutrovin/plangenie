@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Apa yang dimaksud dengan dana pensiun mandiri?",
+      "options": [
+        "Dana bantuan dari keluarga",
+        "Dana yang dipersiapkan sendiri untuk masa pensiun",
+        "Pinjaman untuk hari tua",
+        "Bantuan pemerintah sementara"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Apa manfaat utama memiliki dana pensiun mandiri?",
+      "options": [
+        "Lebih bergantung pada orang lain",
+        "Mengurangi kebutuhan hidup",
+        "Mandiri secara finansial di masa tua",
+        "Tidak perlu menabung"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Apa risiko jika tidak memiliki dana pensiun yang cukup?",
+      "options": [
+        "Lebih mudah berinvestasi",
+        "Bergantung pada keluarga atau pihak lain",
+        "Pendapatan meningkat otomatis",
+        "Biaya hidup menjadi lebih murah"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Mengapa memulai dana pensiun sejak dini lebih menguntungkan?",
+      "options": [
+        "Karena tidak perlu investasi",
+        "Karena kebutuhan hidup menurun",
+        "Karena dana memiliki waktu lebih lama untuk berkembang",
+        "Karena pensiun bisa lebih cepat"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Apa saja sumber yang dapat membantu membangun dana pensiun mandiri?",
+      "options": [
+        "Tabungan, investasi, dan aset produktif",
+        "Utang konsumtif",
+        "Belanja rutin",
+        "Diskon dan promo"
+      ],
+      "answer": 0
+    }
+  ]
+}

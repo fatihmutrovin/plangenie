@@ -1,0 +1,41 @@
+{
+  "id": 4,
+
+  "title": "Investasi untuk Pensiun",
+
+  "subtitle": "Core",
+
+  "materials": [
+
+    {
+
+      "id": 1,
+
+      "title":
+      "Cara memilih investasi yang sesuai untuk pensiun",
+
+      "description":
+      "Memahami investasi yang sesuai untuk tujuan pensiun.",
+
+      "file": "materials/material9.pdf",
+
+      "recommendationFile":
+      "rec_topic4_module1.json",
+
+      "content": [
+
+        "Memahami profil risiko",
+
+        "Jenis investasi jangka panjang",
+
+        "Pentingnya diversifikasi"
+
+      ],
+
+      "quizFile":
+      "quiz_topic4_module1.json"
+
+    }
+
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Apa langkah pertama dalam memulai perencanaan dana pensiun?",
+      "options": [
+        "Membeli investasi berisiko tinggi",
+        "Menentukan tujuan dan usia pensiun",
+        "Mengurangi semua pengeluaran",
+        "Membuka usaha baru"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Mengapa perlu mengenali kondisi keuangan saat ini?",
+      "options": [
+        "Agar bisa membeli barang lebih banyak",
+        "Untuk mengetahui kemampuan menyiapkan dana pensiun",
+        "Agar tidak perlu menabung",
+        "Untuk menghindari investasi"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Faktor apa yang perlu diperhitungkan saat menghitung kebutuhan dana pensiun?",
+      "options": [
+        "Tren media sosial",
+        "Jumlah teman",
+        "Inflasi dan biaya hidup masa depan",
+        "Harga kendaraan saat ini"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Apa manfaat memulai dari nominal kecil tetapi konsisten?",
+      "options": [
+        "Dana dapat bertumbuh seiring waktu",
+        "Tidak perlu investasi",
+        "Pasti cepat kaya",
+        "Tidak memiliki risiko"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Semakin awal memulai perencanaan dana pensiun maka...",
+      "options": [
+        "Semakin besar pengeluaran",
+        "Semakin sedikit pilihan investasi",
+        "Semakin ringan proses mencapai target",
+        "Semakin cepat pensiun"
+      ],
+      "answer": 2
+    }
+  ]
+}

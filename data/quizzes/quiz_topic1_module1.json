@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Mengapa perencanaan masa tua penting?",
+      "options": [
+        "Untuk membeli barang mewah",
+        "Agar tetap mandiri secara finansial",
+        "Supaya cepat kaya",
+        "Untuk mengikuti tren"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Kapan waktu terbaik mulai merencanakan masa tua?",
+      "options": [
+        "Saat usia lanjut",
+        "Setelah menikah",
+        "Sedini mungkin",
+        "Saat memiliki rumah"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Apa langkah pertama dalam perencanaan masa tua?",
+      "options": [
+        "Membeli saham",
+        "Kenali kondisi keuangan Anda",
+        "Membeli rumah",
+        "Mengajukan pinjaman"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Apa yang perlu dihitung sebelum menentukan target dana pensiun?",
+      "options": [
+        "Harga kendaraan",
+        "Jumlah teman",
+        "Kebutuhan hidup saat pensiun",
+        "Biaya liburan tahunan"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Mengapa rencana pensiun perlu dievaluasi secara berkala?",
+      "options": [
+        "Karena kondisi hidup dapat berubah",
+        "Agar bisa sering berbelanja",
+        "Supaya tidak perlu menabung",
+        "Karena investasi selalu rugi"
+      ],
+      "answer": 0
+    }
+  ]
+}

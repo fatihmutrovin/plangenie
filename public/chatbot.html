@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Plangenie Chatbot
+</title>
+
+<!-- FONT -->
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+<!-- ICON -->
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+<!-- CSS -->
+
+<link
+rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <div class="sidebar" id="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            <h1>
+                Plan<span>genie</span>
+            </h1>
+
+            <i class="fa-solid fa-star logo-star"></i>
+
+            <p>
+                AI Financial Assistant
+            </p>
+
+        </div>
+
+        <!-- CHAT BUTTON -->
+
+        <button
+        class="chat-btn"
+        onclick="window.location.href='chatbot.html'">
+
+            <i class="fa-regular fa-comment-dots"></i>
+
+            <span>
+                Chat with Genie
+            </span>
+
+        </button>
+
+        <!-- MENU -->
+
+        <div class="menu">
+
+            <a href="dashboard.html" class="menu-link">
+
+                <div class="menu-item active">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <span>
+                        Dashboard
+                    </span>
+
+                </div>
+
+            </a>
+
+            <a href="personality-report.html" class="menu-link">
+
+                <div class="menu-item">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <span>
+                        Personality Report
+                    </span>
+
+                </div>
+
+            </a>
+
+            <a href="simulation.html" class="menu-link">
+
+                <div class="menu-item">
+
+                    <i class="fa-solid fa-chart-column"></i>
+
+                    <span>
+                        Simulation
+                    </span>
+
+                </div>
+
+            </a>
+
+        </div>
+
+        <!-- CARD GENIE -->
+
+        <div class="bottom-sidebar">
+
+            <div class="profile-card">
+
+                <div class="profile-img">
+
+                    <img src="bot.jpeg">
+
+                </div>
+
+                <h2>
+                    Genie
+                </h2>
+
+                <h4>
+                    AI Financial Assistant
+                </h4>
+
+                <p>
+                    Smart, Friendly,<br>
+                    Reliable — Always<br>
+                    Ready To Help 💙
+                </p>
+
+            </div>
+
+            <!-- LOGOUT -->
+
+            <div class="logout-section">
+
+                <div
+                class="menu-item logout-item"
+                onclick="showLogoutModal()">
+
+                    <i class="fa-solid fa-right-from-bracket"></i>
+
+                    <span>
+                        Logout
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
+
+    <!-- ================= MAIN ================= -->
+
+    <div class="main">
+
+        <!-- TOPBAR -->
+
+        <div class="topbar">
+
+    <button class="menu-toggle" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <div style="display:flex;align-items:center;gap:18px;">
+        <i class="fa-regular fa-circle-question"></i>
+        <i class="fa-solid fa-headset"></i>
+    </div>
+
+</div>
+
+        <!-- ================= CHAT ================= -->
+
+        <div class="chat-section">
+
+            <!-- CHAT BODY -->
+
+            <div
+            class="chat-body"
+            id="chatBody">
+
+                <div
+                class="chat-wrapper"
+                id="chatWrapper">
+
+                </div>
+
+            </div>
+
+            <!-- INPUT -->
+
+            <!-- QUICK ACTION MENU -->
+
+            <div
+            class="quick-action-menu"
+            id="quickActionMenu">
+
+                <button
+                class="quick-action-btn"
+                onclick="startLearning()">
+
+                    <i class="fa-solid fa-book-open"></i>
+                    Belajar
+
+                </button>
+
+                <button
+                class="quick-action-btn"
+                onclick="startProfiling()">
+
+                    <i class="fa-solid fa-chart-column"></i>
+                    Profiling
+
+                </button>
+
+            </div>
+
+            <!-- INPUT AREA -->
+
+            <div class="input-area">
+
+                <button
+                class="attach-btn"
+                onclick="toggleQuickActionMenu()">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+                <div class="input-box">
+
+                    <input
+                    type="text"
+                    id="messageInput"
+                    placeholder="Ketik pesan kamu di sini...">
+
+                </div>
+
+                <button
+                class="send-btn"
+                onclick="sendMessage()">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </button>
+
+            </div>
+
+                <!-- FOOTER -->
+
+                <div class="chat-footer">
+
+                    <i class="fa-solid fa-shield-heart"></i>
+
+                    <span>
+                        Plangenie menjaga kerahasiaan data pribadimu dengan aman.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div
+id="logoutModal"
+class="logout-modal">
+
+    <div class="logout-content">
+
+        <h3>
+            Keluar dari akun?
+        </h3>
+
+        <p>
+            Kamu yakin ingin keluar dari Plangenie?
+        </p>
+
+        <div class="logout-buttons">
+
+            <button
+            class="cancel-btn"
+            onclick="closeLogoutModal()">
+
+                Batal
+
+            </button>
+
+            <button
+            class="confirm-btn"
+            onclick="logout()">
+
+                Ya, Keluar
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<script>
+
+function toggleSidebar(){
+
+    const sidebar =
+    document.getElementById("sidebar");
+
+    const overlay =
+    document.getElementById("sidebarOverlay");
+
+    sidebar.classList.toggle("active");
+    overlay.classList.toggle("active");
+
+}
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+    const overlay =
+    document.getElementById("sidebarOverlay");
+
+    overlay.addEventListener("click",()=>{
+
+        document
+            .getElementById("sidebar")
+            .classList
+            .remove("active");
+
+        overlay
+            .classList
+            .remove("active");
+
+    });
+
+});
+
+</script>
+<script src="js/chatbot.js"></script>
+<script src="js/sidebar.js"></script>
+</body>
+
+</html>

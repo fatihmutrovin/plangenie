@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "invesion-qclp",
+  "private_key_id": "966c7fbb29ae7f9fb1f17924d2cb39bdd01d633b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6sbltamF5j87Y\nqyFxHp/HG554NgiK7m8erEKQ7ejf2Oues/8Jw3LvTIqek7/2cWOG5bokdfR5NaoS\n+eWC/Lrr4wv3uoHzKgP3AvnhZsmff93O35nhto7WH1V5znHFSsbwVImgpPVjbtME\nugdSrvHTGfzessGuMvjcxunIyFE6IolfyyYwQ/CQkikEe8Swfa9QrcbsWWPcC9Vl\nRoqiKjHbGQ5aVD2To/mmE3X/wx1jVGAOLwjXqZZc4KUmLe2iVGvVT/3e0JyfQxsJ\n2NkyovRi7RwXBFsZR+669k6SGTny8TqUovtmvg+wGvsigZ01OWoEYfM0lo+hU8kp\n2un3I4PDAgMBAAECggEATe1cPG8go8iiqu73pQuG3unI4l2PgEpZKKD3oh4kS7d0\nVkjEpnMmOPumit2aTYhz5j1iztBLjQKY7JXRtrS+YzLg7nUzw+egQw1Dd1HbzA9n\n6u+LgFse0QLAP3ksJRF665sl3V+tq+T5AOqTnvA2MYsR8XUFAiz1ktYWhIAU46IK\nnqiVgFGVZC7Clg+/W+Rz/VUn2CRgbnf4Vg6R2RQyC+X4eivpbkQ4i1uPaSL+qreP\nx8PVq8noP4h8J78vQqfrb9+W0riiEPpt/wV4XmbwIGQUPHef30C/faksLp3dFp3E\nqJRCKYunRhMSkG8ntceda7rSSxS9eBCX87MSTk3ERQKBgQDvH3VKc8UUf9T5Wz+8\nWBmPMN9UDMJ2IMw+QLntOPtYFC6vYazkslcgeZdd2PSETia1vNF8KqPUpxAHs83D\nHsrZGMTGYM7R5KhyaQn+LjR804oLqiVxQmvg7O56Ns+7qWf9PjCxQ5IVfOTxlunC\neVGe52tqYAaThuFufCU17QlttwKBgQDH3vhYKioMY5OyzzikFsEGrSvIHqXt4yX1\nvsY8D2UNdjp4Mymglz39Ov0z//wyrY1btvePHzTk13lyGhAuUJR4UyHQE2hMtaFY\nbaRcVe83v2libTfjfakAl3+aTMWg9uicnZfqu1H2180OExp9YZmOcxu29BSs1gEj\nRSxOIQ6aVQKBgGC56uoY9mmaY/4SCTAYuw4PCOeo2aiLD9NGv27UE+fHEjNjYVqJ\nQXEjfjU6I365VjNBk8OUQ/0rLvLOqrb457j1qfNNCZwh0HmnP6GP8y9jKn4Zb1fn\nNFghvz20mkcg+a2Y0H2EBb2nbbzD/P7rsDaFChBXk5FtiBb3JN4xahT1AoGAI6t3\nRsS/nFZpFZBF24L0D+z3008k7b+MFr9lQXK95hkjdjArTa2wMnFEnvMgXyr5/1Q3\n+iLnna+WzPY5zQo0dQThE/Fiu83ubYmju5baimhutlInl0Hl12UyMKdi3ccy3ECD\nzDCCADujLM/b+mRgszt3xr7osa+/pDvEHG1p3cECgYEAj6z5aixSiawqRpLLyPl1\niLk6TpxLAFb2mPQ+i/gXrR4Mi5DU45FVK8GaqXG0EkJww0VE8q6aYqvrMN7dCEgj\nFcGTAbljTHOpBSXrrqZWTai0b8InAjwd4WwFYePe9rc2iLKa/CGhFF6wYtgYnMh9\nevikgWpPZNz3GwFs6Y463po=\n-----END PRIVATE KEY-----\n",
+  "client_email": "invora-chatbot@invesion-qclp.iam.gserviceaccount.com",
+  "client_id": "117953503746734516088",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/invora-chatbot%40invesion-qclp.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

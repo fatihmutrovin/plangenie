@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Mengapa dana pensiun perlu dijaga, bukan hanya dikumpulkan?",
+      "options": [
+        "Karena nilainya dapat berkurang seiring waktu",
+        "Karena dana pensiun tidak boleh digunakan",
+        "Karena semua investasi pasti rugi",
+        "Karena inflasi tidak berpengaruh"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Apa ancaman utama yang dapat mengurangi daya beli dana pensiun?",
+      "options": [
+        "Tabungan",
+        "Inflasi",
+        "Diversifikasi",
+        "Evaluasi berkala"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Mengapa dana pensiun sebaiknya dipisahkan dari kebutuhan sehari-hari?",
+      "options": [
+        "Agar lebih mudah digunakan untuk konsumsi",
+        "Agar tujuan jangka panjang tetap terjaga",
+        "Agar tidak perlu investasi",
+        "Agar pengeluaran meningkat"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Apa manfaat diversifikasi investasi?",
+      "options": [
+        "Menghilangkan semua risiko",
+        "Menjamin keuntungan tinggi",
+        "Mengurangi risiko dengan menyebarkan dana ke beberapa instrumen",
+        "Mengurangi jumlah investasi"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Bagaimana strategi investasi sebaiknya berubah ketika mendekati masa pensiun?",
+      "options": [
+        "Semakin agresif",
+        "Semakin berisiko",
+        "Fokus pada stabilitas dan perlindungan dana",
+        "Memusatkan seluruh dana pada satu instrumen"
+      ],
+      "answer": 2
+    }
+  ]
+}

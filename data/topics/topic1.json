@@ -1,0 +1,100 @@
+{
+  "id": 1,
+
+  "title": "Dasar Perencanaan Keuangan",
+
+  "subtitle": "Foundation",
+
+  "materials": [
+
+    {
+
+      "id": 1,
+
+      "title": "Cara perencanaan masa tua",
+
+      "description":
+      "Memahami langkah-langkah penting untuk mempersiapkan masa tua yang nyaman.",
+
+      "file": "materials/material1.pdf",
+
+      "recommendationFile":
+      "rec_topic1_module1.json",
+
+      "content": [
+
+        "Mengapa perencanaan masa tua penting",
+
+        "Kapan mulai mempersiapkan pensiun",
+
+        "Faktor kebutuhan masa tua"
+
+      ],
+
+      "quizFile":
+      "quiz_topic1_module1.json"
+
+    },
+
+    {
+
+      "id": 2,
+
+      "title":
+      "Langkah awal memulai perencanaan dana pensiun",
+
+      "description":
+      "Belajar langkah pertama mempersiapkan dana pensiun.",
+
+      "file": "materials/material2.pdf",
+
+      "recommendationFile":
+      "rec_topic1_module2.json",
+
+      "content": [
+
+        "Membuat tujuan pensiun",
+
+        "Menghitung kebutuhan dana",
+
+        "Memulai menabung rutin"
+
+      ],
+
+      "quizFile":
+      "quiz_topic1_module2.json"
+
+    },
+
+    {
+
+      "id": 3,
+
+      "title":
+      "Pentingnya dana pensiun mandiri",
+
+      "description":
+      "Memahami pentingnya memiliki dana pensiun secara mandiri.",
+
+      "file": "materials/material3.pdf",
+
+      "recommendationFile":
+      "rec_topic1_module3.json",
+
+      "content": [
+
+        "Mengurangi ketergantungan finansial",
+
+        "Menjaga kestabilan keuangan masa tua",
+
+        "Meningkatkan rasa aman finansial"
+
+      ],
+
+      "quizFile":
+      "quiz_topic1_module3.json"
+
+    }
+
+  ]
+}

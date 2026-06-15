@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Apa yang lebih penting dalam membangun dana pensiun?",
+      "options": [
+        "Jumlah besar tetapi hanya sekali",
+        "Konsistensi menabung dalam jangka panjang",
+        "Menunggu penghasilan besar",
+        "Investasi berisiko tinggi"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Apa salah satu hambatan yang sering membuat orang berhenti menabung?",
+      "options": [
+        "Memiliki tujuan yang jelas",
+        "Menggunakan auto-debit",
+        "Merasa masih muda sehingga menunda",
+        "Mencatat pengeluaran"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Mengapa sebaiknya memulai dari nominal yang realistis?",
+      "options": [
+        "Agar lebih mudah dipertahankan secara konsisten",
+        "Agar cepat kaya",
+        "Agar tidak perlu investasi",
+        "Agar tidak memiliki risiko"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Apa manfaat menggunakan sistem otomatis seperti auto-debit?",
+      "options": [
+        "Menghilangkan semua pengeluaran",
+        "Membantu membangun kebiasaan menabung secara rutin",
+        "Meningkatkan gaji bulanan",
+        "Mengurangi kebutuhan dana pensiun"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Mengapa kemajuan kecil perlu dirayakan?",
+      "options": [
+        "Agar dapat berhenti menabung",
+        "Untuk menjaga motivasi dan konsistensi",
+        "Untuk meningkatkan pengeluaran",
+        "Agar target berubah"
+      ],
+      "answer": 1
+    }
+  ]
+}

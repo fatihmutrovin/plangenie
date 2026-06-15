@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Apa fungsi utama dana darurat?",
+      "options": [
+        "Membeli aset investasi",
+        "Memenuhi kebutuhan saat pensiun",
+        "Menghadapi kebutuhan tak terduga",
+        "Membayar cicilan rumah"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Apa fungsi utama dana pensiun?",
+      "options": [
+        "Membayar kebutuhan mendadak",
+        "Memenuhi kebutuhan hidup setelah tidak bekerja",
+        "Membeli kendaraan",
+        "Membayar tagihan bulanan"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Kapan dana darurat sebaiknya menjadi prioritas utama?",
+      "options": [
+        "Saat investasi sedang naik",
+        "Saat sudah memiliki dana darurat yang cukup",
+        "Saat belum memiliki dana darurat dan kondisi keuangan belum stabil",
+        "Saat ingin membeli barang baru"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Jika dana darurat mulai terbentuk, langkah yang tepat adalah...",
+      "options": [
+        "Menghentikan tabungan",
+        "Mulai mengalokasikan dana untuk pensiun secara bertahap",
+        "Menggunakan dana darurat untuk belanja",
+        "Menunda investasi sampai pensiun"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Apa pesan utama dari modul ini?",
+      "options": [
+        "Harus memilih salah satu dan mengabaikan yang lain",
+        "Dana pensiun lebih penting daripada dana darurat",
+        "Dana darurat lebih penting daripada dana pensiun",
+        "Keduanya dapat dibangun bersama secara bertahap sesuai kondisi keuangan"
+      ],
+      "answer": 3
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Apa keuntungan utama memulai dana pensiun sejak dini?",
+      "options": [
+        "Tidak perlu menabung lagi",
+        "Dana memiliki waktu lebih lama untuk bertumbuh",
+        "Risiko investasi hilang",
+        "Pensiun lebih cepat"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Mengapa waktu disebut aset terbesar dalam perencanaan pensiun?",
+      "options": [
+        "Karena membuat pengeluaran lebih kecil",
+        "Karena memberi kesempatan dana berkembang lebih lama",
+        "Karena menghilangkan inflasi",
+        "Karena membuat investasi tanpa risiko"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Apa yang menunjukkan kekuatan pertumbuhan dana?",
+      "options": [
+        "Dana yang disimpan dan diinvestasikan dapat berkembang dari waktu ke waktu",
+        "Semua orang pasti menjadi kaya",
+        "Tabungan tidak pernah berkurang",
+        "Investasi selalu memberikan keuntungan besar"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Jika baru mulai menyiapkan dana pensiun, apa yang sebaiknya dilakukan?",
+      "options": [
+        "Menunggu penghasilan besar",
+        "Meminjam uang untuk investasi",
+        "Mulai dari nominal kecil tetapi konsisten",
+        "Menunda hingga usia 50 tahun"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Apa langkah penting setelah mulai berinvestasi untuk pensiun?",
+      "options": [
+        "Mengabaikan perkembangan dana",
+        "Mengganti tujuan setiap bulan",
+        "Evaluasi perkembangan secara berkala",
+        "Menghentikan investasi setelah satu tahun"
+      ],
+      "answer": 2
+    }
+  ]
+}

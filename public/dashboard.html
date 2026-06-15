@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Plangenie Dashboard
+    </title>
+
+    <!-- FONT -->
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+    <!-- ICON -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+    <!-- CSS -->
+
+    <link
+    rel="stylesheet"
+    href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <div class="sidebar" id="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            <h1>
+                Plan<span>genie</span>
+            </h1>
+
+            <i class="fa-solid fa-star logo-star"></i>
+
+            <p>
+                AI Financial Assistant
+            </p>
+
+        </div>
+
+        <!-- CHAT BUTTON -->
+
+        <button
+        class="chat-btn"
+        onclick="window.location.href='chatbot.html'">
+
+            <i class="fa-regular fa-comment-dots"></i>
+
+            <span>
+                Chat with Genie
+            </span>
+
+        </button>
+
+        <!-- MENU -->
+
+        <div class="menu">
+
+            <a href="dashboard.html" class="menu-link">
+
+                <div class="menu-item active">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <span>
+                        Dashboard
+                    </span>
+
+                </div>
+
+            </a>
+
+            <a href="personality-report.html" class="menu-link">
+
+                <div class="menu-item">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <span>
+                        Personality Report
+                    </span>
+
+                </div>
+
+            </a>
+
+            <a href="simulation.html" class="menu-link">
+
+                <div class="menu-item">
+
+                    <i class="fa-solid fa-chart-column"></i>
+
+                    <span>
+                        Simulation
+                    </span>
+
+                </div>
+
+            </a>
+
+        </div>
+
+        <!-- CARD GENIE -->
+
+        <div class="bottom-sidebar">
+
+            <div class="profile-card">
+
+                <div class="profile-img">
+
+                    <img src="bot.jpeg">
+
+                </div>
+
+                <h2>
+                    Genie
+                </h2>
+
+                <h4>
+                    AI Financial Assistant
+                </h4>
+
+                <p>
+                    Smart, Friendly,<br>
+                    Reliable — Always<br>
+                    Ready To Help 💙
+                </p>
+
+            </div>
+
+            <!-- LOGOUT -->
+
+            <div class="logout-section">
+
+                <div
+                class="menu-item logout-item"
+                onclick="showLogoutModal()">
+
+                    <i class="fa-solid fa-right-from-bracket"></i>
+
+                    <span>
+                        Logout
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="sidebarOverlay" class="sidebar-overlay"></div>
+        <!-- ================= MAIN ================= -->
+
+    <div class="main">
+
+    <div class="topbar">
+
+        <button class="menu-toggle" onclick="toggleSidebar()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div style="display:flex;align-items:center;gap:18px;">
+            <i class="fa-regular fa-circle-question"></i>
+            <i class="fa-solid fa-headset"></i>
+        </div>
+
+    </div>
+
+    <!-- CONTENT -->
+
+    <div class="dashboard-content">
+
+        <h1>
+            Welcome Back 👋
+        </h1>
+
+        <p>
+
+            Continue your financial learning journey
+            with Genie AI Assistant.
+
+        </p>
+
+        <div id="dashboardSummary"></div>
+
+        <div class="dashboard-card">
+
+            <h2>
+                Start Learning
+            </h2>
+
+            <p>
+
+                Learn retirement planning,
+                investment strategy,
+                financial literacy,
+                and roadmap planning
+                interactively with AI assistance.
+
+            </p>
+
+            <button
+            class="start-btn"
+            onclick="window.location.href='chatbot.html'">
+
+                Start Learning
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<div
+id="logoutModal"
+class="logout-modal">
+
+    <div class="logout-content">
+
+        <h3>
+            Keluar dari akun?
+        </h3>
+
+        <p>
+            Kamu yakin ingin keluar dari Plangenie?
+        </p>
+
+        <div class="logout-buttons">
+
+            <button
+            class="cancel-btn"
+            onclick="closeLogoutModal()">
+
+                Batal
+
+            </button>
+
+            <button
+            class="confirm-btn"
+            onclick="logout()">
+
+                Ya, Keluar
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<script>
+
+function toggleSidebar(){
+
+    const sidebar =
+    document.getElementById("sidebar");
+
+    const overlay =
+    document.getElementById("sidebarOverlay");
+
+    sidebar.classList.toggle("active");
+    overlay.classList.toggle("active");
+
+}
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+    const overlay =
+    document.getElementById("sidebarOverlay");
+
+    overlay.addEventListener("click",()=>{
+
+        document
+            .getElementById("sidebar")
+            .classList
+            .remove("active");
+
+        overlay
+            .classList
+            .remove("active");
+
+    });
+
+});
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+    const user =
+    JSON.parse(
+        localStorage.getItem("user")
+    );
+
+    if(user){
+
+        document.querySelector(
+            ".dashboard-content h1"
+        ).innerHTML =
+
+        `Welcome Back, ${user.full_name} 👋`;
+
+    }
+
+});
+
+const user =
+JSON.parse(
+    localStorage.getItem("user")
+);
+
+if(user){
+
+    fetch(
+        `/api/personality-report/${user.id}`
+    )
+
+    .then(res=>res.json())
+
+    .then(data=>{
+
+        if(!data.success) return;
+
+        document.getElementById(
+            "dashboardSummary"
+        ).innerHTML = `
+
+        <div class="summary-grid">
+
+            <div class="summary-card">
+
+                <h4>Personality</h4>
+
+                <h2>
+                    ${data.report.personality}
+                </h2>
+
+            </div>
+
+            <div class="summary-card">
+
+                <h4>Risk Profile</h4>
+
+                <h2>
+                    ${data.report.risk_profile}
+                </h2>
+
+            </div>
+
+            <div class="summary-card">
+
+                <h4>Saving Rate</h4>
+
+                <h2>
+                    ${data.report.saving_rate}
+                </h2>
+
+            </div>
+
+            <div class="summary-card">
+
+                <h4>Financial Condition</h4>
+
+                <h2>
+                    ${data.report.financial_condition}
+                </h2>
+
+            </div>
+
+        </div>
+
+        `;
+
+    })
+
+    .catch(console.error);
+
+}
+
+</script>
+<script src="js/sidebar.js"></script>
+</body>
+
+</html>
