@@ -81,9 +81,6 @@ app.get("/test-db", async (req,res)=>{
 
 });
 
-
-const fs = require("fs");
-
 app.get("/debug-dialogflow", (req,res)=>{
 
     res.json({
