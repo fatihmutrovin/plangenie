@@ -171,6 +171,37 @@ app.get("/debug-agent", async (req,res)=>{
     }
 
 });
+
+app.get("/test-token", async (req,res)=>{
+
+    try{
+
+        const auth =
+        new dialogflow.SessionsClient({
+            keyFilename:
+            "./invesion-qclp-966c7fbb29ae.json"
+        });
+
+        const token =
+        await auth.auth.getAccessToken();
+
+        res.json({
+            success:true,
+            tokenExists:!!token
+        });
+
+    }
+
+    catch(error){
+
+        res.json({
+            success:false,
+            error:error.message
+        });
+
+    }
+
+});
 // ================= GET TOPICS =================
 
 app.get("/topics", (req,res)=>{
