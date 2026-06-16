@@ -993,11 +993,22 @@ app.post("/api/chat-history", async (req,res)=>{
 
     try{
 
+        console.log(
+            "CHAT HISTORY BODY:",
+            req.body
+        );
+
         const {
             userId,
             role,
             message
         } = req.body;
+
+        console.log(
+            userId,
+            role,
+            message
+        );
 
         await db.execute(
             `INSERT INTO chatbot_history
