@@ -131,6 +131,46 @@ app.get("/debug-dialogflow", async (req,res)=>{
     }
 
 });
+
+app.get("/debug-agent", async (req,res)=>{
+
+    try{
+
+        const sessionClient =
+        new dialogflow.SessionsClient({
+            keyFilename:
+            "./invesion-qclp-966c7fbb29ae.json"
+        });
+
+        const sessionPath =
+        sessionClient.projectAgentSessionPath(
+            "invesion-qclp",
+            "test"
+        );
+
+        res.json({
+
+            success:true,
+
+            sessionPath
+
+        });
+
+    }
+
+    catch(error){
+
+        res.json({
+
+            success:false,
+
+            error:error.message
+
+        });
+
+    }
+
+});
 // ================= GET TOPICS =================
 
 app.get("/topics", (req,res)=>{
