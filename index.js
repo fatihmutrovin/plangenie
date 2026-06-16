@@ -99,12 +99,23 @@ app.get("/debug-dialogflow", async (req,res)=>{
 
     try{
 
-        const projectId =
-        await sessionClient.getProjectId();
+        const key =
+        require("./invesion-qclp-966c7fbb29ae.json");
 
         res.json({
-            success:true,
-            projectId
+
+            project_id:
+            key.project_id,
+
+            client_email:
+            key.client_email,
+
+            private_key_exists:
+            !!key.private_key,
+
+            private_key_start:
+            key.private_key.substring(0,30)
+
         });
 
     }
@@ -112,8 +123,9 @@ app.get("/debug-dialogflow", async (req,res)=>{
     catch(error){
 
         res.json({
-            success:false,
+
             error:error.message
+
         });
 
     }
