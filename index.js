@@ -36,6 +36,20 @@ const app = express();
 
 app.use(express.json());
 
+console.log(
+    "FILE EXISTS:",
+    fs.existsSync(
+        "./invesion-qclp-966c7fbb29ae.json"
+    )
+);
+
+console.log(
+    "FULL PATH:",
+    path.resolve(
+        "./invesion-qclp-966c7fbb29ae.json"
+    )
+);
+
 const sessionClient =
 new dialogflow.SessionsClient({
     keyFilename:
@@ -81,15 +95,28 @@ app.get("/test-db", async (req,res)=>{
 
 });
 
-app.get("/debug-dialogflow", (req,res)=>{
+app.get("/debug-dialogflow", async (req,res)=>{
 
-    res.json({
+    try{
 
-        fileExists: fs.existsSync(
-            "./invesion-qclp-966c7fbb29ae.json"
-        )
+        const projectId =
+        await sessionClient.getProjectId();
 
-    });
+        res.json({
+            success:true,
+            projectId
+        });
+
+    }
+
+    catch(error){
+
+        res.json({
+            success:false,
+            error:error.message
+        });
+
+    }
 
 });
 // ================= GET TOPICS =================
